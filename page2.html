@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    </style>
+
+    <title>Princess Cassidy - Pledge</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a class="current_page" href="page2.html">Pledge</a>
+        </nav>
+        <img class="logo" src="./images/corn_cat.png" alt="logo">
+        <nav class="navbar">
+            <a href="page3.html">Suggestions</a>
+            <a href="page4.html">Pictures</a>
+        </nav>
+    </header>
+
+    <main>
+    <div class="centering-div">
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Pledge</legend>
+
+                <div>
+                    <label for="name">Your name?</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div>
+                    <label for="sacrifice">What are you offering?</label>
+                    <input type="text" id="sacrifice" name="scarifice">
+                </div>
+
+                <div>
+                    <p>You agree that Cassisy the 1st is the ...</p>
+                    <input type="checkbox" name="code" id="cutest"> <label for="cutest">cutest</label>
+                    <input type="checkbox" name="code" id="strongest"> <label for="cutest">strongest</label>
+                    <input type="checkbox" name="code" id="most_beautiful"> <label for="cutest">most beautiful</label>
+                    <p>cat that ever lived. (check all that aplies)</p>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    </main>
+</body>
+</html>
